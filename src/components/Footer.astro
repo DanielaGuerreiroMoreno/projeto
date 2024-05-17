@@ -1,16 +1,33 @@
 ---
 import Social from './Social.astro';
+import behanceIcon from "../assets/Behance-Logo--Streamline-Logos.svg"
+
 ---
 <style>
   footer {
     display: flex;
+    opacity: 1;
     gap: 1rem;
     margin-top: 2rem;
+    transition: opacity 0.25s;
+    transition-delay: 1s;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
   }
+
+  p {
+    margin: 0; 
+  }
+
 </style>
 
 <footer>
-<Social platform="twitter" username="astrodotbuild" />
-  <Social platform="github" username="withastro" />
-  <Social platform="youtube" username="astrodotbuild" />
+  <p>© 2024 Daniela Moreno - All rights reserved</p>
+<Social platform="linkedin" username="in/daniela-moreno-903227185/" />
+  <Social platform="behance" username="danielagmoreno"/>
+  <Social platform="instagram" username="/dani.m_art/" />
+
+
+ 
 </footer>
