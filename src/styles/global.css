@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
 html {
   background-color: #161616;
-  font-family: "Bricolage Grotesque", sans-serif;
+  /*font-family: "Bricolage Grotesque", sans-serif;*/
+  font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight:300;
   font-style: normal;
-  font-variation-settings:"wdth" 100;
   color: #f4f2ed;
   scroll-behavior: smooth;
 }
@@ -14,9 +17,10 @@ html {
 body {
   margin: 0 auto;
   width: 100%;
-  max-width: 80ch;
+  max-width: 1400px;
   padding: 1rem;
   line-height: 1.5;
+
 }
 
 * {
@@ -28,6 +32,27 @@ h1 {
   font-size: 2.5rem;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  padding: 2rem;
+  z-index: 1;
+  background-color: #161616;
+}
+
+.logo figure {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo img {
+  width: 60%;
+  max-width: 100%;;
+  height: auto;
+}
 
 /* nav styles */
 
@@ -51,6 +76,7 @@ h1 {
   background-color: white;
   display: none;
   margin: 0;
+  text-transform: uppercase;
  
 }
 
@@ -76,6 +102,8 @@ h1 {
   display: unset;
 }
 
+
+
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;
@@ -99,9 +127,11 @@ h1 {
 
   nav {
     display: flex;
-    overflow: unset;
-    height: calc(100% - 64px);
     color: white;
     padding: 1rem;
+    justify-content: space-between;
   }
+
+ 
+  
 

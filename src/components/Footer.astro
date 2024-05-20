@@ -1,6 +1,8 @@
 ---
 import Social from './Social.astro';
-import behanceIcon from "../assets/Behance-Logo--Streamline-Logos.svg"
+import behanceicon from '../assets/Behance-Logo--Streamline-Logos.svg';
+import linkedinicon from '../assets/Linkedin-Logo--Streamline-Logos.svg';
+import instagramicon from '../assets/Instagram--Streamline-Core.svg';
 
 ---
 <style>
@@ -24,9 +26,9 @@ import behanceIcon from "../assets/Behance-Logo--Streamline-Logos.svg"
 
 <footer>
   <p>© 2024 Daniela Moreno - All rights reserved</p>
-<Social platform="linkedin" username="in/daniela-moreno-903227185/" />
-  <Social platform="behance" username="danielagmoreno"/>
-  <Social platform="instagram" username="/dani.m_art/" />
+<Social platform="linkedin" username="in/daniela-moreno-903227185/" icon={linkedinicon.src} />
+<Social platform="behance" username="danielagmoreno" icon={behanceicon.src} />
+<Social platform="instagram" username="/dani.m_art/"  icon={instagramicon.src} />
 
 
  

@@ -1,7 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Home Page";
+import mylogo from '../assets/mylogo.gif';
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h2>My awesome blog subtitle</h2>
+ 
+  <div class="logo">
+    <figure>
+    <img src={mylogo.src} alt="a 3d logo with the letters 'DM' in pink metallic material" />
+  </figure>
+</div>
+  <h1>Hello!</h1>
+  <h2>Hi! I'm Daniela Moreno, a Digital Product (& Motion) Designer.</h2>
 </BaseLayout>
