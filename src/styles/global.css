@@ -73,7 +73,7 @@ header {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: white;
+  
   display: none;
   margin: 0;
   text-transform: uppercase;
@@ -114,6 +114,10 @@ header {
   
   }
 
+  .hamburger {
+    display: none;
+  }
+
 }
   .nav-links a {
     display: inline-block;
@@ -121,9 +125,6 @@ header {
     
   }
 
-  .hamburger {
-    display: none;
-  }
 
   nav {
     display: flex;
