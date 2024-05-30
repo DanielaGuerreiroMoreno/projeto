@@ -5,22 +5,40 @@ import Navigation from './Navigation.astro';
 ---
 
 <style>
-  h1 {
-    font-size: 20px;
-    text-transform: uppercase;
 
-  }
+header {
+  position: sticky;
+  top: 0;
+  padding: 2rem;
+  z-index: 1;
+  background-color: #161616c7;
+  
+}
+  
+.header_logo img {
+  width: 200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
 
-  a {
-    color: #f4f2ed;
-    text-decoration: none;
+nav {
+    display: flex;
+    color: white;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
   }
+  
 
 </style>
 
 <header>
+  
   <nav>
-    <a href='/'><h1>Daniela Moreno</h1></a>
+    <a href='/' class="header_logo" title="Go to the homepage" aria-label="Go to the home page" target="_self">
+      <img class="header_logo-image" src="/assets/img/name_logo.png" aria-hidden="true"></img>
+        </a>
     <Hamburger />
     <Navigation />
   </nav>

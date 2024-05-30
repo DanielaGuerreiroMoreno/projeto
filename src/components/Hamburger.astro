@@ -1,7 +1,50 @@
 ---
 ---
-<div class="hamburger">
+<style>
+
+/*.hamburger .line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+
+}*/
+.hamburger .line {
+ 
+  cursor: pointer;
+}
+
+.hamburger::before {
+  width: 20px;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  display: block;
+  background-color: white;
+  width: 32px;
+  height: 3px;
+  margin-bottom: 5px;
+  transition: 0.2s ease;
+  transition-property: transform, width;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+  font: inherit;
+  appearance: button;
+}
+</style>
+
+<button class="hamburger" aria-label="Open menu" aria-haspopup="true">
   <span class="line"></span>
   <span class="line"></span>
-  <span class="line"></span>
-</div>
+</button>

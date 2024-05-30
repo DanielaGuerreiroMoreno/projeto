@@ -4,9 +4,19 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "About Me";
 ---
 <BaseLayout pageTitle={pageTitle}>
-    <h2>... and my new Astro site!</h2>
-
-    <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
-
-    <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
+    <section class="about-container">
+        <article class="image-text_content">
+        <div class="intro-text">
+            <h1>Hi there!</h1>
+            <h2>I'm a Digital Product & Motion Designer based in Portugal.</h2> 
+        </div>
+        <div class="profile-picture">
+            <img class="perfil1" src="/assets/img/perfil1.jpg">
+        </div>
+        
+            <p>I am currently pursuing a post-graduate degree in Digital Experience Design at the Faculty of Fine Arts of the University of Lisbon, having previously obtained a bachelor’s degree in Multimedia Art from the same faculty.</p>
+            <p>My focus is designing and creating outstanding digital experiences that solve <strong>real-world problems</strong> and enhance people's lives. I take a human-centered approach to my work, always keeping usability and business goals in mind. With my skills, I aim to combine motion and digital design through <strong>creativity</strong> and <strong>innovation</strong>.</p>
+            <p>Beyond design and motion, I am also passionate about travel, cinema, art books, and music. As a creative, I strive to live life to the fullest, embracing new experiences and seeking inspiration from the world around me.</p>
+        </article>
+    </section>
 </BaseLayout>

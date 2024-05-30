@@ -13,8 +13,27 @@ const pageTitle = "Portfolio";
   </head>
   <body>
     <Header />
-
     <h1>{pageTitle}</h1>
+    <div class="work">
+      <ul>
+        <li>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+          <span class="1work">WORK</span>
+        </li>
+      </ul>
+    </div>
     <p>This is where I will post about my journey learning Astro.</p>
     <ul>
       {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
