@@ -6,6 +6,7 @@ html {
   background-color: #161616;
   color: #f4f2ed;
   scroll-behavior: smooth;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 body {
@@ -27,22 +28,6 @@ h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
 }
-
-
-.logo figure {
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.logo img {
-  width: 60%;
-  max-width: 100%;;
-  height: auto;
-}
-
 
 
 /* nav styles */
@@ -76,6 +61,7 @@ h1 {
   background-color: rgba(255, 255, 255, 0.25); 
     transition: background-color 0.25s ease-in-out; 
     border-radius: 50px;
+
 }
 
 .expanded {
@@ -129,6 +115,10 @@ h1 {
 
 /*Portfolio*/
 
+.portfolio_layout {
+  margin: 0 32px;
+}
+
 .work {
   overflow: hidden;
 }
@@ -154,6 +144,12 @@ h1 {
   100% {
     transform: translateX(-100%);
   }
+}
+
+
+
+.intro_text {
+  font-size: 16px;
 }
 
 .casestudy {
@@ -192,15 +188,24 @@ h1 {
   display: block;
 }
 
+.card h2 {
+  font-weight: normal;
+  
+}
+
+.card {
+  padding: 10px;
+}
 
 .tags {
-  font-size: 20px;
+  font-size: 16px;
   overflow: hidden;
   display: flex;
   gap: 16px;
   order: 1;
-
+  padding: 16px 0;
 }
+
 .card_tags {
   background-color: rgba(255, 255, 255, 0.136);
   color:white;
@@ -214,23 +219,20 @@ h1 {
 }
 
 
-
-/*Desktop version*/
-@media only screen and (min-width: 992px) {
+/*DESKTOP VERSION*/
+@media screen and (min-width: 992px) {
   .nav-links {
     margin-left: 5em;
     display: block;
     position: static;
     width: auto;
     background: none;
-  
   }
 
   .hamburger {
     display: none;
   }
 
-}
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
@@ -254,9 +256,46 @@ h1 {
   }
 
   .profile-picture img {
-    width: 400px;
+    width: 100%;
     height: auto;
   }
+
+  
+  .cards_grid_layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .tags {
+    font-size: 16px;
+    overflow: hidden;
+    display: flex;
+    gap: 16px;
+    order: 1;
+    padding: 16px 0;
+  }
+
+  .intro_text {
+    font-size: 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      align-items: center;
+      padding: 20px 0;
+    }
+  
+}
+
+
+  
+  
+  
+  
+ 
+  
+ 
+
+  
 
   
 
