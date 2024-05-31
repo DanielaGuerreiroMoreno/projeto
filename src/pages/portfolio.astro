@@ -13,7 +13,7 @@ const pageTitle = "Portfolio";
   </head>
   <body>
     <Header />
-    <h1>{pageTitle}</h1>
+    
     <div class="work">
       <ul>
         <li>
@@ -34,6 +34,18 @@ const pageTitle = "Portfolio";
         </li>
       </ul>
     </div>
+    <p>I specialize in a diverse range of design development, including UI/UX, motion graphics, 3D animation, and more.</p>
+    <section class="casestudy">
+        <div class="cards_grid_layout">
+        <h2>Instagram New Feature</h2>
+        <figure class="figure_thumbnail">
+        <img src="/assets/img/instagram_newfeature_cover.png" alt="Instagram New Feature">
+        </figure>
+        <div class="tags">
+          <span class="card_tags">ux/ui</span>
+          <span class="card_tags">motion graphics</span>
+        </div>
+      </section>
     <p>This is where I will post about my journey learning Astro.</p>
     <ul>
       {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}

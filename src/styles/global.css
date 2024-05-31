@@ -156,6 +156,63 @@ h1 {
   }
 }
 
+.casestudy {
+  padding: 40px 0;
+}
+
+.cards_grid_layout {
+  max-width: calc((min(100vw - 48px, 1392px) - 264px) / 12* 12 + 264px);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+  justify-items: start; 
+
+}
+
+
+.figure_thumbnail {
+  display: contents;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.figure_thumbnail figure {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.figure_thumbnail img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+
+.tags {
+  font-size: 20px;
+  overflow: hidden;
+  display: flex;
+  gap: 16px;
+  order: 1;
+
+}
+.card_tags {
+  background-color: rgba(255, 255, 255, 0.136);
+  color:white;
+  border-radius: 4px; 
+  overflow: hidden; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px;
+  padding: 0.4em 0.8em;
+  display: inline-flex;
+}
+
 
 
 /*Desktop version*/
