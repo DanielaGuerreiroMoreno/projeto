@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Instagram New Feature'
+title: 'Sky Care'
 description: 'This is the first post of my new Astro blog.'
 author: 'Daniela Moreno'
 image:
@@ -8,15 +8,3 @@ image:
     alt: 'The full Astro logo.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-
-<h1>Instagram New Feature</h1>
-<p> Case studys Instagram New Feature</p>
-<img src="/assets/img/instagram_newfeature_cover.jpg">
-
-<style>
-img {
-    width:100%;
-}
-
-
-</style>

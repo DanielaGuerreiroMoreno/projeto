@@ -1,11 +1,54 @@
 ---
 const { frontmatter } = Astro.props;
-import BaseLayout from './BaseLayout.astro';
+import BaseLayout from "./BaseLayout.astro";
 ---
+
 <BaseLayout pageTitle={frontmatter.title}>
-<p>{frontmatter.pubDate.toString().slice(0,10)}</p>
-<p><em>{frontmatter.description}</em></p>
-<p>Written by: {frontmatter.author}</p>
-<img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
-<slot />
+    <div class="project_top_container">
+        <a href="/portfolio#portfolio" class="goback" target="_self">
+            <img
+                src="/assets/svg/arrow-left.svg"
+                alt="white arrow to go back"
+            />
+
+            <p>Back</p>
+        </a>
+    </div>
+
+    <slot />
 </BaseLayout>
+
+<style>
+    .project_top_container {
+        margin-top: 24px;
+    }
+
+    .goback {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+        z-index: 10;
+        padding: 0.2em 1em;
+        border-radius: 50px;
+        transition: background-color 0.25s ease-in-out;
+    }
+
+    .goback img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .goback p {
+        margin: 0;
+        padding-left: 8px;
+    }
+
+    .goback:hover,
+    .goback:focus {
+        background-color: rgba(255, 255, 255, 0.25);
+    }
+
+
+
+</style>
