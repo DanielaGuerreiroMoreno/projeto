@@ -25,10 +25,10 @@ import BaseLayout from "./BaseLayout.astro";
 
             <slot />
         </div>
-    </article></BaseLayout>
+    </article></BaseLayout
+>
 
 <style>
-
     .case_studies {
         padding-left: 32px;
         padding-right: 32px;
@@ -45,9 +45,10 @@ import BaseLayout from "./BaseLayout.astro";
         margin-top: 24px;
     }
 
-    
-
     .goback {
+        position: relative;
+        background-color: #16161666;
+        backdrop-filter: blur(2px);
         display: inline-flex;
         align-items: center;
         text-decoration: none;
@@ -72,4 +73,12 @@ import BaseLayout from "./BaseLayout.astro";
     .goback:focus {
         background-color: rgba(255, 255, 255, 0.25);
     }
+
+
+    @media screen and (min-width: 992px) {
+        .goback {
+    position: fixed;
+}
+
+}
 </style>

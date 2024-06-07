@@ -21,7 +21,7 @@ title: 'Instagram New Feature'
 <div class="project_button">
 <a class="behance_button" href="https://www.behance.net/gallery/197318489/Instagrams-New-Feature-Search-Control-Case-Study" target="_blank">
 <p>Open project on Behance</p>
-</a>
+    </a>
 </div>
 </section>
 
@@ -42,7 +42,7 @@ title: 'Instagram New Feature'
 <video autoplay loop muted plays-inline class="prototipo-video">
 <source src="/assets/img/project_1/prototipo.mp4" type="video/mp4">
 </video>
-<img src="/assets/img/project_1/page4.png"></img>
+<img src="/assets/img/project_1/page4.png">
 </figure>
 </section>
 
