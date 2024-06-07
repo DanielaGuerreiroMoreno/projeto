@@ -3,25 +3,49 @@ const { frontmatter } = Astro.props;
 import BaseLayout from "./BaseLayout.astro";
 ---
 
-<BaseLayout pageTitle={frontmatter.title}>
-    <div class="project_top_container">
-        <a href="/portfolio#portfolio" class="goback" target="_self">
-            <img
-                src="/assets/svg/arrow-left.svg"
-                alt="white arrow to go back"
-            />
+<BaseLayout pageTitle={frontmatter.title} hideHeader={true}>
+    <article class="case_studies">
+        <div class="projects_layout">
+            <section class="project_cover">
+                <div class="project_top_container">
+                    <a
+                        href="/portfolio#portfolio"
+                        class="goback"
+                        target="_self"
+                    >
+                        <img
+                            src="/assets/svg/arrow-left.svg"
+                            alt="white arrow to go back"
+                        />
 
-            <p>Back</p>
-        </a>
-    </div>
+                        <p>Back</p>
+                    </a>
+                </div>
+            </section>
 
-    <slot />
-</BaseLayout>
+            <slot />
+        </div>
+    </article></BaseLayout>
 
 <style>
+
+    .case_studies {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .projects_layout {
+        max-width: calc((min(100vw - 48px, 1392px) - 264px) / 12 * 12 + 264px);
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
     .project_top_container {
         margin-top: 24px;
     }
+
+    
 
     .goback {
         display: inline-flex;
@@ -48,7 +72,4 @@ import BaseLayout from "./BaseLayout.astro";
     .goback:focus {
         background-color: rgba(255, 255, 255, 0.25);
     }
-
-
-
 </style>
