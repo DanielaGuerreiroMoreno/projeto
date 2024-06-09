@@ -7,21 +7,32 @@ const { platform, username, icon } = Astro.props;
   target="_blank"
   rel="noopener noreferrer"
 >
-  <img src={icon} alt={`${platform} icon`} style="width: 24px; height: 24px;" />
+  <img
+    class="icons-social"
+    src={icon}
+    alt={`${platform} icon`}
+    style="width: 24px; height: 24px;"
+  />
 </a>
 
 <style>
   a {
-    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    padding: 1rem;
     color: white;
-    background-color: #ec008c;
     text-decoration: none;
     border-radius: 50px;
     display: inline-flex;
     align-items: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
   }
 
-  img {
+  a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+
+  .icon-social img {
     fill: white;
   }
 </style>

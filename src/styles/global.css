@@ -228,8 +228,6 @@ h1 {
 }
 
 /*POST-1*/
-
-
 .video_container {
   float: none;
   clear: both;
@@ -285,6 +283,7 @@ h1 {
   font-weight: 200;
 }
 
+
 .project_button {
   display: inline-flex;
   gap: 24px;
@@ -319,16 +318,24 @@ h1 {
   border-color: #F1D9E7;
 }
 
+.prototype_button {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.project_figure {
+  margin: 0;
+}
+
 .project_content figure {
   margin: 0;
   padding: 0;
 }
 
-
 .project_content img {
   width: 100%;
 }
-
 
 .prototipo-video,
 .wireframes-video {
@@ -336,12 +343,70 @@ h1 {
   height: 100%;
 }
 
-
-
 .project__tags {
   margin: 5px 0;
 }
 
+
+
+/*POST 2*/
+.figma-logo path {
+  fill: white;
+}
+
+.behance_button:hover .figma-logo path,
+.behance_button:focus .figma-logo path  {
+  fill: #EC008C;
+}
+
+.prototype_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prototype_button a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.prototype_button p {
+  display: flex;
+  margin: 0;
+  font-size: 16px;
+}
+
+.behance_button {
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+/*FOOTER*/
+
+.social_links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+
+
+.container_name {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+footer {
+  padding: 24px 0;
+}
 
 
 
@@ -417,6 +482,7 @@ h1 {
     margin: 3rem 0;
   }
 
+  .prototype_button,
   .project_button {
     display: flex;
   }
@@ -445,6 +511,10 @@ h1 {
 
   .project__tags {
     margin: 0 5px;
+  }
+
+  .container_name {
+    font-size: 16px;
   }
 
 }

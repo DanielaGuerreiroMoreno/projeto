@@ -1,39 +1,28 @@
 ---
 import Social from "./Social.astro";
-import behanceicon from "../assets/Behance-Logo--Streamline-Logos.svg";
-import linkedinicon from "../assets/Linkedin-Logo--Streamline-Logos.svg";
-import instagramicon from "../assets/Instagram--Streamline-Core.svg";
+import behanceicon from "../assets/behance.svg";
+import linkedinicon from "../assets/linkedin-in.svg";
+import instagramicon from "../assets/instagram.svg";
 ---
 
-<style>
-  footer {
-    display: flex;
-    opacity: 1;
-    gap: 1rem;
-    margin-top: 2rem;
-    transition: opacity 0.25s;
-    transition-delay: 1s;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  p {
-    margin: 0;
-  }
-</style>
-
 <footer>
-  <p>© 2024 Daniela Moreno - All rights reserved</p>
-  <Social
-    platform="linkedin"
-    username="in/daniela-moreno-903227185/"
-    icon={linkedinicon.src}
-  />
-  <Social platform="behance" username="danielagmoreno" icon={behanceicon.src} />
-  <Social
-    platform="instagram"
-    username="/dani.m_art/"
-    icon={instagramicon.src}
-  />
+  <div class="social_links">
+    <Social
+      platform="linkedin"
+      username="in/daniela-moreno-903227185/"
+      icon={linkedinicon.src}
+    />
+    <Social
+      platform="behance"
+      username="danielagmoreno"
+      icon={behanceicon.src}
+    />
+    <Social
+      platform="instagram"
+      username="/dani.m_art/"
+      icon={instagramicon.src}
+    />
+  </div>
+
+  <p class="container_name">© 2024 Daniela Moreno - All rights reserved</p>
 </footer>

@@ -2,6 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Instagram New Feature'
 ---
+
 <div class="project_headline">
 <div class="heading">
 <h1>Search Control</h1>
@@ -18,12 +19,10 @@ title: 'Instagram New Feature'
 <div class="project_description">
 <p>Introducing Search Control for Instagram, a feature designed to empower users to have more control over content by offering personalized search, filtering, and sorting options based on selected interests and keywords.</p>
 </div>
+
 <div class="project_button">
 <a class="behance_button" href="https://www.behance.net/gallery/197318489/Instagrams-New-Feature-Search-Control-Case-Study" target="_blank">
-<p>Open project on Behance</p>
-    </a>
-</div>
-</section>
+<p>Open project on Behance</p></a></div></section>
 
 <section class="project_content">
 <figure class="project_figure">
@@ -34,15 +33,18 @@ title: 'Instagram New Feature'
 </div>
 
 <img src="/assets/img/project_1/page2.png">
-<video autoplay loop muted plays-inline class="wireframes-video" alt="Image explaining the entire process of the project to obtain the solution">
+<video autoplay loop muted plays-inline class="wireframes-video" alt="Video demonstrating the wireframes">
 <source src="/assets/img/project_1/wireframes.mp4" type="video/mp4">
 </video>
-<img src="/assets/img/project_1/page3.png">
+<img src="/assets/img/project_1/page3.png"  alt="Image explaining the entire process of the project to obtain the solution">
 
-<video autoplay loop muted plays-inline class="prototipo-video">
+<video autoplay loop muted plays-inline class="prototipo-video" alt="Video demonstrating the prototype">
 <source src="/assets/img/project_1/prototipo.mp4" type="video/mp4">
 </video>
+
 <img src="/assets/img/project_1/page4.png">
 </figure>
 </section>
+
+
 
