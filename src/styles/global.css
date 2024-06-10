@@ -328,10 +328,13 @@ h1 {
   margin: 0;
 }
 
+
 .project_content {
   display: flex;
-
+  flex-direction: column;
+  align-items: center;
 }
+
 
 .project_content figure {
   display: flex;
@@ -387,6 +390,19 @@ h1 {
   font-size: 16px;
 }
 
+/*POST 5*/
+
+.text_project5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project_5_gride {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
 /*FOOTER*/
 
@@ -407,6 +423,7 @@ h1 {
 footer {
   padding: 24px 0;
 }
+
 
 
 

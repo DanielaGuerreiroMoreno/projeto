@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Second Blog Post
+title: FBAUL
 ---
 <div class="project_headline">
 <div class="heading">
@@ -28,9 +28,22 @@ title: My Second Blog Post
 
 <section class="project_content">
 <figure class="project_figure">
-<img src="/assets/img/project_2/fbaul_project.png" alt="Image explaining the project problem and solution">
+<img src="/assets/img/project_2/page_1.png" alt="Explanation of the challenge and goal">
+<img src="/assets/img/project_2/page_2.png" alt="Double Diamond of the Desing Process">
+<img src="/assets/img/project_2/page_3.png" alt="Discover phase, explaining the Candidates segment and main insights from website analysis">
+<img src="/assets/img/project_2/page_4.png" alt="Main insights from Benchmarking and Data analysis">
+<img src="/assets/img/project_2/page_5.png" alt="Main insights from Interviews and Surveys">
+<img src="/assets/img/project_2/page_6.png" alt="Define phase, development of two personas">
+<img src="/assets/img/project_2/page_7.png" alt="Main insights and How Migth We">
+<img src="/assets/img/project_2/page_8.png" alt="Site Flow of the website redesign">
+<img src="/assets/img/project_2/page_9.png" alt="Ideate phase, development of the style guide for the website">
+<img src="/assets/img/project_2/page_10.png" alt="Three Wireframes in a scale of greys">
+<img src="/assets/img/project_2/page_11.png" alt="Website Mockups with explanation for the elements">
+<img src="/assets/img/project_2/page_12.png" alt="Deliver phase, development of usability tests and main learnings">
+<img src="/assets/img/project_2/page_13.png" alt="Main insights of what we could have done differently and Next Steps">
+<img src="/assets/img/project_2/page_14.png" alt="Team members' names on the left, website mockup on the right">
 </figure>
-
+</section>
 
 <div class="prototype_button">
 <a class="behance_button" href="https://www.figma.com/proto/dYa1xDHVRuCoBHCP0v7QCF/Fase-2%3A-Idea%C3%A7%C3%A3o-e-desenvolvimento-de-solu%C3%A7%C3%B5es?page-id=0%3A1&type=design&node-id=171-1780&t=Em5WlZK3l19fIxSx-1&scaling=min-zoom&starting-point-node-id=171%3A1780" target="_blank">
@@ -39,5 +52,5 @@ title: My Second Blog Post
   <p>Prototype</p>
     </a>
 </div>
-</section>
+
 
