@@ -25,3 +25,10 @@ title: My Third Blog Post
     </a>
 </div>
 </section>
+
+<section class="project_content">
+<figure class="project_figure">
+<img src="/assets/img/project_3/page_1.png" alt="cover page with a mockup and title in baby pink background ">
+<img src="/assets/img/project_3/page_2.png" alt="Image explaining the challenge, solution and process of the project">
+<img src="/assets/img/project_3/page_3.png" alt="Beginning of the Design System with Layout Grid and Spacing on a Pink Background">
+<img src="/assets/img/project_3/page_4.png" alt="Beginning of the Design System with Layout Grid and Spacing on a Pink Background">

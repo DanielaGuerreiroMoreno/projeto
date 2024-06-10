@@ -328,7 +328,15 @@ h1 {
   margin: 0;
 }
 
+.project_content {
+  display: flex;
+
+}
+
 .project_content figure {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
   margin: 0;
   padding: 0;
 }
@@ -379,14 +387,6 @@ h1 {
   font-size: 16px;
 }
 
-.behance_button {
-  text-decoration: none;
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
 
 /*FOOTER*/
 
