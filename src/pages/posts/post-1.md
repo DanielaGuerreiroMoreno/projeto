@@ -32,17 +32,33 @@ title: 'Instagram New Feature'
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lzAekp-sB7I?si=FlpEDCQ4rWwl_Z_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-<img src="/assets/img/project_1/page2.png">
-<video autoplay loop muted plays-inline class="wireframes-video" alt="Video demonstrating the wireframes">
-<source src="/assets/img/project_1/wireframes.mp4" type="video/mp4">
-</video>
-<img src="/assets/img/project_1/page3.png"  alt="Image explaining the entire process of the project to obtain the solution">
+<img src="/assets/img/project_1/page2.png" alt="Segmentation of our solution along with three mobile mockups">
+<img src="/assets/img/project_1/page3.png" alt="Context of the solution and the design process displayed with a black background">
+<img src="/assets/img/project_1/page4.png" alt="Comparative table of competitor analysis and their best practices displaying three example images">
+<img src="/assets/img/project_1/page5.png" alt="Desk research about Instagram, their impact and main users, and what makes TikTok so successful">
+<img src="/assets/img/project_1/page6.png" alt="Social listening based the research">
+<img src="/assets/img/project_1/page7.png" alt="Interviews and surveys featuring quotes from interviews and graphics from survey analysis">
+<img src="/assets/img/project_1/page8.png" alt="Displaying the need and requeriments of two personas, the Private user and the Creator and Business Owner">
+<img src="/assets/img/project_1/page9.png" alt="Using MoSCoW to prioritize features, displayed with white text on a black background">
+<img src="/assets/img/project_1/page10.png" alt="Three user flows displayed in a diagram">
 
-<video autoplay loop muted plays-inline class="prototipo-video" alt="Video demonstrating the prototype">
-<source src="/assets/img/project_1/prototipo.mp4" type="video/mp4">
-</video>
 
-<img src="/assets/img/project_1/page4.png">
+<div class="video_container">
+<div style="padding:52.73% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/956979772?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Wireframes to Mockups"></iframe>
+    </div>
+</div>
+
+<img src="/assets/img/project_1/page11.png" alt="Twelve mockups of the solution showing, each with explanatory elements of the respective features">
+<img src="/assets/img/project_1/page12.png" alt="word 'Prototype' is displayed on the left with a white background and black text, accompanied by a tag with the word 'Design' on the right">
+
+
+<div class="video_container">
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src= "https://player.vimeo.com/video/956989178?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Prototype" alt="Display of all prototype"></iframe></div>
+</div>
+
+<img src="/assets/img/project_1/page13.png" alt="Usability test displaying the tasks and results, along with the main insights">
+<img src="/assets/img/project_1/page14.png" alt="What have we learned and the next steps">
+<img src="/assets/img/project_1/page15.png" alt="Final credits for the team">
 </figure>
 </section>
 
