@@ -33,21 +33,39 @@ title: 'Butter'
 </div>
 
 <div class="project_5_gride">
-<figure class="project_figure">
-<img src="/assets/img/project_5/img_1.png" alt="Image explaining the project problem and solution">
-<img src="/assets/img/project_5/img_2.png" alt="Image explaining the project problem and solution">
-<img src="/assets/img/project_5/img_3.png" alt="Image explaining the project problem and solution">
-<img src="/assets/img/project_5/img_4.png" alt="Image explaining the project problem and solution">
-<img src="/assets/img/project_5/img_5.png" alt="Image explaining the project problem and solution">
-<img src="/assets/img/project_5/img_6.png" alt="Image explaining the project problem and solution">
-<img src="/assets/img/project_5/img_7.png" alt="Image explaining the project problem and solution">
-<img src="/assets/img/project_5/img_8.png" alt="Image explaining the project problem and solution">
-<img src="/assets/img/project_5/img_9.png" alt="Image explaining the project problem and solution">
-
+<figure class="project_figure_butter">
+<img src="/assets/img/project_5/img_1.png" alt="Yellow background with black text centered" >
 </figure>
 
-</section>
+<figure class="project_figure_butter">
+<img src="/assets/img/project_5/img_2.png" alt="Orange background with white text centered">
+</figure>
+<figure class="project_figure_butter">
+<img src="/assets/img/project_5/img_3.png" alt="Yellow background with orange text aligned at left">
+</figure>
 
+<figure class="project_figure_butter">
+<img src="/assets/img/project_5/img_4.png" alt="Orange background with white text and dollar sign centered">
+</figure>
+
+<figure class="project_figure_butter">
+<img src="/assets/img/project_5/img_5.png" alt="person dancing with a yellow text 'Let it' centered">
+</figure>
+
+<figure class="project_figure_butter">
+<img src="/assets/img/project_5/img_6.png" alt="Green background with yellow text centered">
+</figure>
+
+<figure class="project_figure_butter">
+<img src="/assets/img/project_5/img_7.png" alt="Yellow background with green text 'Hate us'centered">
+</figure>
+
+<figure class="project_figure_butter">
+<img src="/assets/img/project_5/img_8.png" alt="Green background with yellow text aligned at left">
+</figure>
+
+</div>
+</section>
 
 <p class="text_project5">for learning and entertainment purposes only</p>
 
