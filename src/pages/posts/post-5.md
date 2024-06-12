@@ -32,35 +32,35 @@ title: 'Butter'
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/CaZRUhRnL2o?si=yHm5d1SbIqnVBDKq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-<div class="project_5_gride">
-<figure class="project_figure_butter">
+<div class="gride_images_container">
+<figure class="gride_images">
 <img src="/assets/img/project_5/img_1.png" alt="Yellow background with black text centered" >
 </figure>
 
-<figure class="project_figure_butter">
+<figure class="gride_images">
 <img src="/assets/img/project_5/img_2.png" alt="Orange background with white text centered">
 </figure>
-<figure class="project_figure_butter">
+<figure class="gride_images">
 <img src="/assets/img/project_5/img_3.png" alt="Yellow background with orange text aligned at left">
 </figure>
 
-<figure class="project_figure_butter">
+<figure class="gride_images">
 <img src="/assets/img/project_5/img_4.png" alt="Orange background with white text and dollar sign centered">
 </figure>
 
-<figure class="project_figure_butter">
+<figure class="gride_images">
 <img src="/assets/img/project_5/img_5.png" alt="person dancing with a yellow text 'Let it' centered">
 </figure>
 
-<figure class="project_figure_butter">
+<figure class="gride_images">
 <img src="/assets/img/project_5/img_6.png" alt="Green background with yellow text centered">
 </figure>
 
-<figure class="project_figure_butter">
+<figure class="gride_images">
 <img src="/assets/img/project_5/img_7.png" alt="Yellow background with green text 'Hate us'centered">
 </figure>
 
-<figure class="project_figure_butter">
+<figure class="gride_images">
 <img src="/assets/img/project_5/img_8.png" alt="Green background with yellow text aligned at left">
 </figure>
 
