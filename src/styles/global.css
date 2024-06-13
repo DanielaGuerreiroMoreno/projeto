@@ -75,20 +75,23 @@ h1 {
 .image-text_content {
   display: grid;
   gap: 18px;
+
 }
 
+.intro-text {
+  padding: 20px 0;
+}
+
+.intro-text h2,
 .intro-text h1 {
   font-size: 2em;
-  margin: 0;
+  margin: 10px 0;
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 500;
 }
 
 .intro-text h2 {
-  font-size: 2em;
-  margin: 10px 0;
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-weight: 500;
+  font-size: 1.5em;
 }
 
 .profile-picture img {
@@ -462,11 +465,29 @@ footer {
     padding: 15px 20px;
   }
 
+  /*About*/
   .image-text_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    
     gap: 48px;
-    align-items: center;
+    width: 100%;
+ 
+    margin: 0 auto;
+    align-items: flex-start;
+  }
+
+  .intro-text {
+    order: 2; 
+  }
+
+  .profile-picture img {
+    order: 1; 
+  
+  }
+
+  .image-text_content p {
+    order: 3;
   }
 
   .intro-text h1,
@@ -477,13 +498,26 @@ footer {
 
   .profile-picture {
     margin-bottom: 0;
+    display: flex;
+    align-items: flex-start; 
+    
   }
 
   .profile-picture img {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 
+ 
+
+
+
+
+
+
+
+
+  /*Portfolio*/
   .cards_grid_layout {
     grid-template-columns: repeat(2, 1fr);
   }
