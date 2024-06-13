@@ -83,12 +83,13 @@ title: 'Bubble'
 </figure>
 
 <figure class="border_image">
-<img src="/assets/img/project_7/img_15.png" alt="Colourful bubbles in a grey environment">
+<img src="/assets/img/project_7/img_15.png" alt="A computer with a bubble cover, on a white background, on top of a wooden table">
 </figure>
 
 <figure class="border_image">
-<img src="/assets/img/project_7/page_16.png" alt="Colourful bubbles in a grey environment">
+<img src="/assets/img/project_7/page_16.png" alt="one mobile and one tablet with bubbles">
 </figure>
 
 </figure>
+</div>
 </section>
