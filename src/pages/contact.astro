@@ -6,7 +6,25 @@ const pageTitle = "Contact";
 <BaseLayout pageTitle={pageTitle}>
     <h2>Contact</h2>
 
-    <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
+    <div class="contact_container">
+        <form action="" class="contact-left">
+            <div class="contact_left_title">
+                <h2>Let's talk</h2>
+                <hr>
+            </div>
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Send</button>
 
-    <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
+            
+
+        </form>
+        <div class="contact-right">
+            <img src="/assets/img/Contact/cherry.png">
+        </div>
+
+    </div>
+    
+
 </BaseLayout>
