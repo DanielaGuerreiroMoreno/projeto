@@ -5,14 +5,15 @@ html {
   background-color: #121212;
   color: #f4f2ed;
   scroll-behavior: smooth;
-  font-family: "Roboto Flex", sans-serif;
 }
 
 body {
   margin: 0 auto;
+  padding: 1rem;
+  margin-top: 6rem;
   width: 100%;
   max-width: 1400px;
-  padding: 1rem;
+  height: auto;
   line-height: 1.5;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 300;
@@ -23,14 +24,44 @@ body {
 }
 
 
-
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
 }
 
-/* nav styles */
+/* General header styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1.3rem 10%;
+  z-index: 1;
+  width: 100%;
+  background-color: #161616c7;
+  backdrop-filter: blur(2px);
+  transition: 0.25s ease-in-out;
+  z-index: 100;
+ 
+  justify-content: space-between;
+  align-items: center;
+}
 
+  /* Container for navigation and logo */
+  .nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    color:white;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: "Bricolage Grotesque", sans-serif;
+  }
+
+/* nav styles */
 .nav-links {
   width: 100%;
   top: 5rem;
@@ -48,7 +79,7 @@ h1 {
   padding: 10px 0;
   text-decoration: none;
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 300;
   color: white;
 }
 
@@ -560,13 +591,55 @@ footer {
 
 /*DESKTOP VERSION*/
 @media screen and (min-width: 992px) {
-  .nav-links {
-    margin-left: 5em;
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
+
+  .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1.3rem 10%;
+  z-index: 1;
+  width: 100%;
+  background-color: #161616c7;
+  backdrop-filter: blur(2px);
+  transition: 0.25s ease-in-out;
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  /* Container for navigation and logo */
+  .nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  .logo {
+    font-size: 1.5rem;
+    color:white;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: "Bricolage Grotesque", sans-serif;
+  }
+
+/* nav styles */
+
+.nav-links {
+  margin-left: 5em;
+  display: block;
+  position: static;
+  width: auto;
+  background: none;
+}
+
+
+.nav-links a:hover,
+.nav-links a:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: background-color 0.25s ease-in-out;
+  border-radius: 50px;
+}
+
 
   .hamburger {
     display: none;
@@ -576,6 +649,8 @@ footer {
     display: inline-block;
     padding: 15px 20px;
   }
+
+
 
   /*About*/
   .about-container {

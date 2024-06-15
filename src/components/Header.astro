@@ -4,42 +4,12 @@ import Navigation from './Navigation.astro';
 
 ---
 
-<style>
+<header class="header">
+  <div class="nav_container">
+<a href='/' class="logo" title="Go to the homepage" aria-label="Go to the home page" target="_self">Daniela Moreno</a>
 
-header {
-  position: sticky;
-  top: 0;
-  padding: 2rem;
-  z-index: 1;
-  background-color: #161616c7;
-  backdrop-filter: blur(2px);
-}
-  
-.header_logo img {
-  width: 150px;
-  height: auto;
-  display: flex;
-  align-items: center;
-}
-
-nav {
-    display: flex;
-    color: white;
-    padding: 0;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-
-</style>
-
-<header>
-  
-  <nav>
-    <a href='/' class="header_logo" title="Go to the homepage" aria-label="Go to the home page" target="_self">
-      <img class="header_logo-image" src="/assets/img/name_logo.png" aria-hidden="true"></img>
-        </a>
+<!-- Hamburger and Navigation components -->
+      </nav>
     <Hamburger />
     <Navigation />
-  </nav>
 </header>

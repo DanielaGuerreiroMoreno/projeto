@@ -10,15 +10,24 @@
   background-color: white;
 
 }*/
+
+
 .hamburger .line {
- 
   cursor: pointer;
+  display: block;
+  width: 100%;
+  background-color: white;
+  transition: transform 0.2s ease, width 0.2s ease;
 }
 
 .hamburger::before {
   width: 20px;
 }
 
+
+.hamburger:hover .line {
+  background-color: #EC008C; /* Change color to pink on hover */
+}
 .hamburger::before,
 .hamburger::after {
   content: "";
