@@ -1,0 +1,52 @@
+# Essential Stuff
+
+## Colors
+
+``` css
+--background-black: hsl(0, 0%, 7%);
+--white: hsl(43, 24%, 94%);
+--light-black: hsla(0, 0%, 100%, 0.25);
+--tags-light-black: hsla(0, 0%, 100%, 0.136);
+--pink: hsl(324, 100%, 46%);
+--baby-pink: hsl(325, 46%, 90%);
+--header-black:  hsla(0, 0%, 7%, 0.758);
+
+```
+
+## Typography
+
+``` css
+--ff-roboto: "Roboto Flex", sans-serif;
+--ff-bricolage: "Bricolage Grotesque", sans-serif;
+
+--fs-1: 6rem;
+--fs-2: 5rem;
+--fs-3: 3.8rem;
+--fs-4: 2.8rem;
+--fs-5: 2.6rem;
+--fs-6: 2.2rem;
+--fs-7: 2rem;
+--fs-8: 1.8rem;
+--fs-9: 1.5rem;
+--fs-10: 1.4rem;
+--fs-11: 1.2rem;
+
+--fw-100: 100;
+--fw-300: 300;
+--fw-400: 400;
+--fw-500: 500;
+```
+
+## Shadow
+
+``` css
+--pink-shadow: 0px 0px 20px 3px hsla(323, 97%, 61%, 0.278);
+```
+
+## Transition
+
+``` css
+--button-hover: background-color 0.25s ease-in-out;
+--card-hover: transform 0.3s ease;
+
+```

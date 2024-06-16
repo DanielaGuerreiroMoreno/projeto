@@ -15,6 +15,7 @@ const { pageTitle, hideHeader } = Astro.props;
     <title>{pageTitle}</title>
   </head>
   <body>
+  
     {hideHeader ? null : <Header />}
 
     <slot />

@@ -1,9 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
+
+:root {
+
+  /**
+   * colors
+   */
+   --background-black: hsl(0, 0%, 7%);
+   --white: hsl(43, 24%, 94%);
+   --light-black: hsla(0, 0%, 100%, 0.25);
+   --tags-light-black: hsla(0, 0%, 100%, 0.136);
+   --pink: hsl(324, 100%, 46%);
+   --baby-pink: hsl(325, 46%, 90%);
+   --header-black: hsla(0, 0%, 7%, 0.758);;
+
+/**
+   * shadow
+   */
+   --pink-shadow: 0px 0px 20px 3px hsla(323, 97%, 61%, 0.278);
+
+/**
+   * Typography
+   */
+
+   --ff-roboto: "Roboto Flex", sans-serif;
+--ff-bricolage: "Bricolage Grotesque", sans-serif;
+
+--fs-1: 6rem;
+--fs-2: 5rem;
+--fs-3: 3.8rem;
+--fs-4: 2.8rem;
+--fs-5: 2.6rem;
+--fs-6: 2.2rem;
+--fs-7: 2rem;
+--fs-8: 1.8rem;
+--fs-9: 1.5rem;
+--fs-10: 1.4rem;
+--fs-11: 1.2rem;
+
+--fw-100: 100;
+--fw-300: 300;
+--fw-400: 400;
+--fw-500: 500;
+
+/**
+   * Transition
+   */
+   --button-hover: background-color 0.25s ease-in-out;
+   --card-hover: transform 0.3s ease;
+
+}
+
 html {
-  background-color: #121212;
-  color: #f4f2ed;
+  background-color: var(--background-black);
+  color: var(--white);
   scroll-behavior: smooth;
 }
 
@@ -15,8 +66,8 @@ body {
   max-width: 1400px;
   height: auto;
   line-height: 1.5;
-  font-family: "Roboto Flex", sans-serif;
-  font-weight: 300;
+  font-family: var(--ff-roboto);
+  font-weight: var(--fw-300);
 }
 
 * {
@@ -26,8 +77,10 @@ body {
 
 h1 {
   margin: 1rem 0;
-  font-size: 2.5rem;
+  font-size: var(--fs-5);
 }
+
+
 
 /* General header styles */
 .header {
@@ -37,13 +90,11 @@ h1 {
   padding: 1.3rem 10%;
   z-index: 1;
   width: 100%;
-  background-color: #161616c7;
+  background-color: var(--header-black);
   backdrop-filter: blur(2px);
   transition: 0.25s ease-in-out;
   z-index: 100;
- 
-  justify-content: space-between;
-  align-items: center;
+  display: block;
 }
 
   /* Container for navigation and logo */
@@ -55,22 +106,42 @@ h1 {
 
   .logo {
     font-size: 1.5rem;
-    color:white;
+    color:var(--white);
     text-decoration: none;
-    font-weight: 300;
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: var(--fw-300);
+    font-family: var(--ff-bricolage);
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header-black);
   }
 
 /* nav styles */
 .nav-links {
+  position: absolute;
+  top: 60px;
+  left: 0;
   width: 100%;
-  top: 5rem;
-  left: 48px;
   display: none;
+  flex-direction: column;
+  background-color: var(--header-black);
+  padding: 1rem 0;
   margin: 0;
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: var(--ff-bricolage);
   font-style: normal;
-  font-weight: 100;
+  font-weight: var(--fw-100);
+
+}
+
+.nav-links.expanded {
+  display: flex;
+}
+
+.expanded {
+  display: unset;
 }
 
 .nav-links a {
@@ -80,18 +151,14 @@ h1 {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 300;
-  color: white;
+  color: var(--white);
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: rgba(255, 255, 255, 0.25);
-  transition: background-color 0.25s ease-in-out;
+  background-color: var(--light-black);
+  transition: var(--button-hover);
   border-radius: 50px;
-}
-
-.expanded {
-  display: unset;
 }
 
 /* about */
@@ -111,9 +178,9 @@ h1 {
 
 .image_text_content h3 {
   font-size: 24px;
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: var(--ff-bricolage);
   font-style: normal;
-  font-weight: 300;
+  font-weight: var(--fw-300);
 }
 
 .image_text_layout {
@@ -155,7 +222,7 @@ h1 {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0px 0px 20px 3px #fc3db447;
+  box-shadow: var(--pink-shadow);
   margin-bottom: 20px;
 }
 
@@ -249,13 +316,13 @@ h1 {
 .card {
   padding: 10px;
   text-decoration: none;
-  color: white;
-  transition: transform 0.3s ease;
+  color: var(--white);
+  transition: var(--card-hover);
 }
 
 .card-comingsoon,
 .card a {
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -280,8 +347,8 @@ h1 {
 
 .project__tags,
 .card_tags {
-  background-color: rgba(255, 255, 255, 0.136);
-  color: white;
+  background-color: var(--tags-light-black);
+  color: var(--white);
   border-radius: 4px;
   overflow: hidden;
   justify-content: center;
@@ -320,8 +387,8 @@ h1 {
 
 .heading h1 {
   font-size: 32px;
-  font-weight: 500;
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: var(--fw-500);
+  font-family: var(--ff-bricolage);
   padding: 0;
 
 }
@@ -356,7 +423,7 @@ h1 {
 
 .behance_button {
   border-style: solid;
-  border-color: #EC008C;
+  border-color: var(--pink);
   display: inline-flex;
   align-items: center;
   text-decoration: none;
@@ -364,7 +431,7 @@ h1 {
   z-index: 10;
   padding: 0.5em 2em;
   border-radius: 50px;
-  transition: background-color 0.25s ease-in-out;
+  transition: var(--button-hover);
   background-color: transparent;
   height: 50px;
 }
@@ -377,9 +444,9 @@ h1 {
 
 .behance_button:hover,
 .behance_button:focus {
-  background-color: #F1D9E7;
-  color: #EC008C;
-  border-color: #F1D9E7;
+  background-color: var(--baby-pink);
+  color: var(--pink);
+  border-color: var(--baby-pink);
 }
 
 .prototype_button {
@@ -426,12 +493,12 @@ h1 {
 
 /*POST 2*/
 .figma-logo path {
-  fill: white;
+  fill: var(--white);
 }
 
 .behance_button:hover .figma-logo path,
 .behance_button:focus .figma-logo path {
-  fill: #EC008C;
+  fill: var(--pink);
 }
 
 .prototype_button {
@@ -520,9 +587,9 @@ footer {
 .contact_left_title h2 {
   font-size: 32px;
   margin-bottom: 5px;
-  color:#F1D9E7;
-  font-weight: 500;
-  font-family: "Bricolage Grotesque", sans-serif;
+  color:var(--baby-pink);
+  font-weight: var(--fw-500);
+  font-family: var(--ff-bricolage);
 
 }
 
@@ -530,7 +597,7 @@ footer {
   border: none;
   width: 120px;
   height: 5px;
-  background-color: #F1D9E7;
+  background-color: var(--baby-pink);
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -541,7 +608,7 @@ footer {
   border: none;
   outline: none;
   padding-left: 25px;
-  color: gray;
+  color: var(--light-black);
   border-radius: 50px;
 }
 
@@ -553,11 +620,11 @@ footer {
 }
 
 .contact-inputs:focus {
-  border: 2px solid #EC008C;
+  border: 2px solid var(--pink);
 }
 
 .contact-inputs::placeholder {
-  color: gray;
+  color: var(--light-black);
 }
 
 .contact-left button{
@@ -565,23 +632,23 @@ footer {
   align-items: center;
   font-size: 16px;
   gap: 10px;
-  border-color: #EC008C;
+  border-color: var(--pink);
   border-radius: 50px;
-  color: #F1D9E7;
+  color: var(--baby-pink);
   cursor: pointer;
-  outline: #EC008C;
+  outline: var(--pink);
   background-color: transparent;
-  transition: background-color 0.25s ease-in-out;
+  transition: var(--button-hover);
   border-style: solid;
   padding: 0.7em 2em;
   
 }
 
 .contact-left button:hover {
-  color: #EC008C;
+  color: var(--pink);
   cursor: pointer;
-  border-color: #F1D9E7;
-  background-color: #F1D9E7;
+  border-color: var(--baby-pink);
+  background-color: var(--baby-pink);
 }
 
 .contact-right img {
@@ -593,34 +660,12 @@ footer {
 @media screen and (min-width: 992px) {
 
   .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 1.3rem 10%;
-  z-index: 1;
-  width: 100%;
-  background-color: #161616c7;
-  backdrop-filter: blur(2px);
-  transition: 0.25s ease-in-out;
-  z-index: 100;
-  justify-content: space-between;
-  align-items: center;
+  display: block;
 }
 
-  /* Container for navigation and logo */
-  .nav_container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .logo {
-    font-size: 1.5rem;
-    color:white;
-    text-decoration: none;
-    font-weight: 300;
-    font-family: "Bricolage Grotesque", sans-serif;
-  }
+.nav-bar {
+  display: contents;
+}
 
 /* nav styles */
 
@@ -635,8 +680,8 @@ footer {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: rgba(255, 255, 255, 0.25);
-  transition: background-color 0.25s ease-in-out;
+  background-color: var(--light-black);
+  transition:var(--button-hover);
   border-radius: 50px;
 }
 

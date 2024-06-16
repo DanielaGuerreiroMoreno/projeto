@@ -1,33 +1,22 @@
 ---
+
 ---
 <style>
 
-/*.hamburger .line {
-  display: block;
-  width: 40px;
-  height: 5px;
-  margin-bottom: 10px;
-  background-color: white;
 
-}*/
 
 
 .hamburger .line {
-  cursor: pointer;
-  display: block;
   width: 100%;
+  height: 3px;
   background-color: white;
-  transition: transform 0.2s ease, width 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.2s ease, width 0.2s ease;
 }
-
-.hamburger::before {
-  width: 20px;
-}
-
 
 .hamburger:hover .line {
   background-color: #EC008C; /* Change color to pink on hover */
 }
+
 .hamburger::before,
 .hamburger::after {
   content: "";
@@ -40,6 +29,9 @@
   transition-property: transform, width;
 }
 
+
+
+
 button {
   outline: 0;
   border: 0;
@@ -51,6 +43,7 @@ button {
   font: inherit;
   appearance: button;
 }
+
 </style>
 
 <button class="hamburger" aria-label="Open menu" aria-haspopup="true">
