@@ -4,12 +4,13 @@
 
 ``` css
 --background-black: hsl(0, 0%, 7%);
+--header-black:  hsla(0, 0%, 7%, 0.758);
 --white: hsl(43, 24%, 94%);
+ --gray: hsl(0, 0%, 35%);
 --light-black: hsla(0, 0%, 100%, 0.25);
 --tags-light-black: hsla(0, 0%, 100%, 0.136);
 --pink: hsl(324, 100%, 46%);
---baby-pink: hsl(325, 46%, 90%);
---header-black:  hsla(0, 0%, 7%, 0.758);
+--baby-pink: hsl(325, 46%, 90%);~
 
 ```
 

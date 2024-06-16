@@ -8,12 +8,13 @@
    * colors
    */
    --background-black: hsl(0, 0%, 7%);
+   --header-black: hsla(0, 0%, 7%, 0.758);
    --white: hsl(43, 24%, 94%);
+   --gray: hsl(0, 0%, 35%);
    --light-black: hsla(0, 0%, 100%, 0.25);
    --tags-light-black: hsla(0, 0%, 100%, 0.136);
    --pink: hsl(324, 100%, 46%);
    --baby-pink: hsl(325, 46%, 90%);
-   --header-black: hsla(0, 0%, 7%, 0.758);;
 
 /**
    * shadow
@@ -608,8 +609,9 @@ footer {
   border: none;
   outline: none;
   padding-left: 25px;
-  color: var(--light-black);
+  color: var(--gray);
   border-radius: 50px;
+ 
 }
 
 
@@ -617,6 +619,8 @@ footer {
   height: 140px;
   padding-top: 15px;
   border-radius: 20px;
+  color: var(--gray);
+  background-color: var(--white); 
 }
 
 .contact-inputs:focus {
@@ -624,7 +628,8 @@ footer {
 }
 
 .contact-inputs::placeholder {
-  color: var(--light-black);
+  color: var(--background-black);
+
 }
 
 .contact-left button{
