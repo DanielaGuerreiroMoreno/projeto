@@ -620,7 +620,6 @@ footer {
   padding-top: 15px;
   border-radius: 20px;
   color: var(--gray);
-  background-color: var(--white); 
 }
 
 .contact-inputs:focus {
@@ -628,7 +627,7 @@ footer {
 }
 
 .contact-inputs::placeholder {
-  color: var(--background-black);
+  color: var(--gray);
 
 }
 
