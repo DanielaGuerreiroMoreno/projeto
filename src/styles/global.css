@@ -7,49 +7,49 @@
   /**
    * colors
    */
-   --background-black: hsl(0, 0%, 7%);
-   --header-black: hsla(0, 0%, 7%, 0.758);
-   --white: hsl(43, 24%, 94%);
-   --gray: hsl(0, 0%, 35%);
-   --light-black: hsla(0, 0%, 100%, 0.25);
-   --tags-light-black: hsla(0, 0%, 100%, 0.136);
-   --pink: hsl(324, 100%, 46%);
-   --baby-pink: hsl(325, 46%, 90%);
+  --background-black: hsl(0, 0%, 7%);
+  --header-black: hsla(0, 0%, 7%, 0.758);
+  --white: hsl(43, 24%, 94%);
+  --gray: hsl(0, 0%, 35%);
+  --light-black: hsla(0, 0%, 100%, 0.25);
+  --tags-light-black: hsla(0, 0%, 100%, 0.136);
+  --pink: hsl(324, 100%, 46%);
+  --baby-pink: hsl(325, 46%, 90%);
 
-/**
+  /**
    * shadow
    */
-   --pink-shadow: 0px 0px 20px 3px hsla(323, 97%, 61%, 0.278);
+  --pink-shadow: 0px 0px 20px 3px hsla(323, 97%, 61%, 0.278);
 
-/**
+  /**
    * Typography
    */
 
-   --ff-roboto: "Roboto Flex", sans-serif;
---ff-bricolage: "Bricolage Grotesque", sans-serif;
+  --ff-roboto: "Roboto Flex", sans-serif;
+  --ff-bricolage: "Bricolage Grotesque", sans-serif;
 
---fs-1: 6rem;
---fs-2: 5rem;
---fs-3: 3.8rem;
---fs-4: 2.8rem;
---fs-5: 2.6rem;
---fs-6: 2.2rem;
---fs-7: 2rem;
---fs-8: 1.8rem;
---fs-9: 1.5rem;
---fs-10: 1.4rem;
---fs-11: 1.2rem;
+  --fs-1: 6rem;
+  --fs-2: 5rem;
+  --fs-3: 3.8rem;
+  --fs-4: 2.8rem;
+  --fs-5: 2.6rem;
+  --fs-6: 2.2rem;
+  --fs-7: 2rem;
+  --fs-8: 1.8rem;
+  --fs-9: 1.5rem;
+  --fs-10: 1.4rem;
+  --fs-11: 1.2rem;
 
---fw-100: 100;
---fw-300: 300;
---fw-400: 400;
---fw-500: 500;
+  --fw-100: 100;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
 
-/**
+  /**
    * Transition
    */
-   --button-hover: background-color 0.25s ease-in-out;
-   --card-hover: transform 0.3s ease;
+  --button-hover: background-color 0.25s ease-in-out;
+  --card-hover: transform 0.3s ease;
 
 }
 
@@ -99,27 +99,27 @@ h1 {
   display: block;
 }
 
-  /* Container for navigation and logo */
-  .nav_container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+/* Container for navigation and logo */
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .logo {
-    font-size: 1.5rem;
-    color:var(--white);
-    text-decoration: none;
-    font-weight: var(--fw-300);
-    font-family: var(--ff-bricolage);
-  }
+.logo {
+  font-size: 1.5rem;
+  color: var(--white);
+  text-decoration: none;
+  font-weight: var(--fw-300);
+  font-family: var(--ff-bricolage);
+}
 
-  .nav-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--header-black);
-  }
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--header-black);
+}
 
 /* nav styles */
 .nav-links {
@@ -197,7 +197,7 @@ h1 {
 }
 
 .tilt-box-wrap {
-  perspective: 1000px; 
+  perspective: 1000px;
   position: relative;
   transition: all 0.6s ease-out;
 
@@ -216,7 +216,7 @@ h1 {
   position: relative;
   display: flex;
   justify-content: center;
-  
+
 }
 
 .image_text_figure img {
@@ -241,8 +241,9 @@ h1 {
 }
 
 .cards_grid_layout_homepage figure {
- margin:0;
- padding: 0;;
+  margin: 0;
+  padding: 0;
+  ;
 }
 
 .figure_other_projects img {
@@ -619,7 +620,7 @@ footer {
 .contact_left_title h2 {
   font-size: 32px;
   margin-bottom: 5px;
-  color:var(--baby-pink);
+  color: var(--baby-pink);
   font-weight: var(--fw-500);
   font-family: var(--ff-bricolage);
 
@@ -642,7 +643,7 @@ footer {
   padding-left: 25px;
   color: var(--gray);
   border-radius: 50px;
- 
+
 }
 
 
@@ -662,7 +663,7 @@ footer {
 
 }
 
-.contact-left button{
+.contact-left button {
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -676,7 +677,7 @@ footer {
   transition: var(--button-hover);
   border-style: solid;
   padding: 0.7em 2em;
-  
+
 }
 
 .contact-left button:hover {
@@ -688,28 +689,78 @@ footer {
 
 .contact-right img {
   display: none;
-  }
+}
 
 /*RESUME*/
 .skills {
   padding: 24px 0;
 }
 
+.resume_layout h2 {
+font-size: 32px;
+font-family: var(--ff-bricolage);
+font-weight: var(--fw-500);
+}
+
+.resume_layout p {
+  font-size: 16px;
+  text-align: left;
+  max-width: 500px;
+  }
+
 .resume_layout {
   padding: 0 32px;
-  margin: 0;
+  margin: 40px 0;
 }
+
+.mybackground {
+  display: grid;
+  padding: 20px 0;
+  gap: 1em;
+}
+
 .skills h3,
 .mybackground h3 {
   font-family: var(--ff-bricolage);
   color: var(--white);
   font-size: 24px;
   font-weight: var(--fw-500);
-
+  padding: 0;
+  margin: 10px 0;
 
 }
-.details{
+
+.details_summary {
+  font-size: 18px;
+  color: var(--white);
+  font-weight: var(--fw-200);
+}
+
+.details_summary::after {
+  content: "";
+  position: absolute;
+}
+
+
+summary::marker {
+  content: '';
+  transition: transform 0.3s ease;
+}
+
+
+.details {
   cursor: pointer;
+  position: relative;
+  border: 1px solid var(--gray);
+  padding: 15px;
+  border-radius: 20px;
+  max-width: 500px;
+  transition: 0.5s ease-in-out;
+}
+
+.details:hover {
+  border: 1px solid var(--pink);
+  box-shadow: var(--pink-shadow);
 
 }
 
@@ -717,16 +768,30 @@ footer {
   display: none;
   font-size: 18px;
   color: var(--white);
-  padding: 10px;
   border-radius: 8px;
-  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+  transition: max-height 0.5s ease-out, opacity 0.5s ease-out, padding 0.5s ease-out;
   overflow: hidden;
+  padding: 0 10px;
+  border-radius: 8px;
 }
 
 .details[open] .details_content {
+  animation: sweep 0.5s ease-in-out;
   display: block;
-  max-height: 500px; /* Adjust as needed */
+  max-height: 500px;
   padding: 10px;
+}
+
+@keyframes sweep {
+  from {
+    opacity: 0;
+    margin-top: -10px;
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
 }
 
 
@@ -738,24 +803,30 @@ footer {
 
 .mybackground_skills {
   padding: 12px 24px 20px;
-  border: 1px solid var(--pink);
+  border: 1px solid var(--gray);
   border-radius: 24px;
   flex-grow: 1;
+  transition: 0.5s ease-in-out;
+}
+
+.mybackground_skills:hover {
+  border: 1px solid var(--pink);
+  box-shadow: var(--pink-shadow);
 }
 
 .skills_list {
   padding-top: 8px;
-    position: relative;
-    width: auto;
-    display: grid;
-    padding: 10px;
-    margin:0;
+  position: relative;
+  width: auto;
+  display: grid;
+  padding: 10px;
+  margin: 0;
 }
 
 .skills_list li {
   font-size: 18px;
   list-style: circle;
-    margin-left: 16px;
+  margin-left: 16px;
 }
 
 .skills_layout {
@@ -767,8 +838,8 @@ footer {
 .mybackground_skills h4 {
   font-size: 18px;
   font-weight: var(--fw-300);
-  color: var(--white); 
-  margin: 12px  0;
+  color: var(--white);
+  margin: 12px 0;
 }
 
 
@@ -776,30 +847,30 @@ footer {
 @media screen and (min-width: 992px) {
 
   .header {
-  display: block;
-}
+    display: block;
+  }
 
-.nav-bar {
-  display: contents;
-}
+  .nav-bar {
+    display: contents;
+  }
 
-/* nav styles */
+  /* nav styles */
 
-.nav-links {
-  margin-left: 5em;
-  display: block;
-  position: static;
-  width: auto;
-  background: none;
-}
+  .nav-links {
+    margin-left: 5em;
+    display: block;
+    position: static;
+    width: auto;
+    background: none;
+  }
 
 
-.nav-links a:hover,
-.nav-links a:focus {
-  background-color: var(--light-black);
-  transition:var(--button-hover);
-  border-radius: 50px;
-}
+  .nav-links a:hover,
+  .nav-links a:focus {
+    background-color: var(--light-black);
+    transition: var(--button-hover);
+    border-radius: 50px;
+  }
 
 
   .hamburger {
@@ -840,18 +911,19 @@ footer {
   .image_text_content p {
     font-size: 24px;
   }
- 
+
   .contact-right,
   .tilt-box-wrap:hover {
     transition: all 0.3s linear;
     transform: scale(1.1);
   }
-  
- 
+
+
   .tilt-box-wrap:hover .tilt-box {
-    transform: scale3d(1.05, 1.05, 1.05) rotateX(5deg) rotateY(-5deg); /* Scale and rotate the tilt-box on hover */
+    transform: scale3d(1.05, 1.05, 1.05) rotateX(5deg) rotateY(-5deg);
+    /* Scale and rotate the tilt-box on hover */
   }
-  
+
 
 
 
@@ -947,21 +1019,21 @@ footer {
     display: flex;
     width: 500px;
     height: 100%;
-    }
+  }
 
-    .mybackground_skills h4 {
-      font-size: 24px;
-      font-weight: var(--fw-300);
-    }
+  .mybackground_skills h4 {
+    font-size: 24px;
+    font-weight: var(--fw-300);
+  }
 
-    .skills_layout {
-      display: grid;
-      grid-template-columns: 1fr 1fr; 
-      gap: 24px;
-    }
+  .skills_layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
 
-    .skills_list li {
-      font-size: 18px;
-    }
+  .skills_list li {
+    font-size: 18px;
+  }
 
 }
