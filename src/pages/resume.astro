@@ -4,9 +4,65 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Resumé";
 ---
 <BaseLayout pageTitle={pageTitle}>
-    <h2>My experience</h2>
 
-    <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
+    <section class="resume_layout">
+        <h2>My experience</h2>
+        <div class="mybackground">
+        <h3>Education</h3>
+        <details class="details">
+            <summary class="details_summary">Post-graduation in Digital Experience Design</summary>
+            <div class="details_content">
+                <p class="intro_resume">Faculty of Fine Arts of the University of Lisbon</p>
+                <p class="intro_resume">2023 - 2024</p>
+                <p>A specialization course with studies in user-centered design and research, interaction design, user interface design, front-end development, digital marketing, design strategy, design management and entrepreneurship. With the course, students are prepared to design, build and launch cutting-edge digital products and services.</p>
+            </div>
+        </details>
+        <details class="details">
+            <summary class="details_summary">Bachelor’s degree in Multimedia Art</summary>
+            <div class="details_content">
+                <p class="intro_resume">Faculty of Fine Arts of the University of Lisbon</p>
+                <p class="intro_resume">2020 - 2023</p>
+                <p>In this course, we take a multidisciplinary approach and explore various creative practices such as 3D modelling, animation, photography, video editing, sound design, installations, and audience interaction. With this course, students get prepared with a diverse range of skills, to create, reflect, develop, and launch projects.</p>
+            </div>
+        </details>
+        </div>
 
-    <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
+        <div class="mybackground">
+            <h3>Experience</h3>
+            <details class="details">
+                <summary class="details_summary">Graphic Designer Freelance</summary>
+                <div class="details_content">
+                    <p class="intro_resume"> Fev. 2024 - present</p>
+                    <p>I collaborate with a diverse range of clients to create logos, flyers, and promotional videos for their businesses and projects. Throughout this process, I develop my problem-solving skills, learn to organize my time efficiently, and establish effective communication with the client.</p>
+            </details>
+            </div>
+
+            <section class="skills">
+            <h3>Skills</h3>
+            <div class="skills_layout">
+                <div class="mybackground_skills">
+                <h4>Design</h4>
+                <ul class="skills_list">
+                    <li>UX/UI Design</li>
+                    <li>Interface Design</li>
+                    <li>Prototyping</li>
+                    <li>Research</li>
+                    <li>Graphic Design</li>
+                </ul>
+            </div>
+
+            <div class="mybackground_skills">
+                <h4>Video</h4>
+                <ul class="skills_list">
+                    <li>Motion Design</li>
+                    <li>Video Editing</li>
+                    <li>3D Modelling</li>
+                </ul>
+            </div>
+            </div>
+            </section>
+            
+    </section>
+
+    
 </BaseLayout>

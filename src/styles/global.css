@@ -83,6 +83,7 @@ h1 {
 
 
 
+
 /* General header styles */
 .header {
   position: fixed;
@@ -266,7 +267,6 @@ h1 {
 
 
 /*Portfolio*/
-
 .portfolio_layout {
   margin: 0 32px;
 }
@@ -690,6 +690,87 @@ footer {
   display: none;
   }
 
+/*RESUME*/
+.skills {
+  padding: 24px 0;
+}
+
+.resume_layout {
+  padding: 0 32px;
+  margin: 0;
+}
+.skills h3,
+.mybackground h3 {
+  font-family: var(--ff-bricolage);
+  color: var(--white);
+  font-size: 24px;
+  font-weight: var(--fw-500);
+
+
+}
+.details{
+  cursor: pointer;
+
+}
+
+.details_content {
+  display: none;
+  font-size: 18px;
+  color: var(--white);
+  padding: 10px;
+  border-radius: 8px;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+  overflow: hidden;
+}
+
+.details[open] .details_content {
+  display: block;
+  max-height: 500px; /* Adjust as needed */
+  padding: 10px;
+}
+
+
+.intro_resume {
+  color: #898989;
+  font-size: 16px;
+  font-weight: var(--fw-300);
+}
+
+.mybackground_skills {
+  padding: 12px 24px 20px;
+  border: 1px solid var(--pink);
+  border-radius: 24px;
+  flex-grow: 1;
+}
+
+.skills_list {
+  padding-top: 8px;
+    position: relative;
+    width: auto;
+    display: grid;
+    padding: 10px;
+    margin:0;
+}
+
+.skills_list li {
+  font-size: 18px;
+  list-style: circle;
+    margin-left: 16px;
+}
+
+.skills_layout {
+  display: grid;
+  gap: 20px;
+  height: fit-content;
+}
+
+.mybackground_skills h4 {
+  font-size: 18px;
+  font-weight: var(--fw-300);
+  color: var(--white); 
+  margin: 12px  0;
+}
+
 
 /*DESKTOP VERSION*/
 @media screen and (min-width: 992px) {
@@ -866,6 +947,21 @@ footer {
     display: flex;
     width: 500px;
     height: 100%;
+    }
+
+    .mybackground_skills h4 {
+      font-size: 24px;
+      font-weight: var(--fw-300);
+    }
+
+    .skills_layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr; 
+      gap: 24px;
+    }
+
+    .skills_list li {
+      font-size: 18px;
     }
 
 }
