@@ -32,7 +32,7 @@ title: 'Instagram New Feature'
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lzAekp-sB7I?si=FlpEDCQ4rWwl_Z_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-<img src="/assets/img/project_1/page2.png" alt="Segmentation of our solution along with three mobile mockups">
+<img src="/assets/img/project_1/page2.jpg" alt="Segmentation of our solution along with three mobile mockups">
 <img src="/assets/img/project_1/page3.png" alt="Context of the solution and the design process displayed with a black background">
 <img src="/assets/img/project_1/page4.png" alt="Comparative table of competitor analysis and their best practices displaying three example images">
 <img src="/assets/img/project_1/page5.png" alt="Desk research about Instagram, their impact and main users, and what makes TikTok so successful">
