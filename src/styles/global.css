@@ -15,6 +15,7 @@
   --tags-light-black: hsla(0, 0%, 100%, 0.136);
   --pink: hsl(324, 100%, 46%);
   --baby-pink: hsl(325, 46%, 90%);
+  --textpink: hsl(324, 100%, 73%);
 
   /**
    * shadow
@@ -173,6 +174,8 @@ h1 {
 .homepage_layout {
   padding: 20px 0;
   margin: 56px;
+  display: grid;
+  gap: 32px;
 }
 
 .home {
@@ -180,7 +183,7 @@ h1 {
   align-items: center;
   justify-content: flex-start;
   gap: 15rem;
-  padding: 70px 0;
+  padding: 10px 0;
 }
 
 .home-content {
@@ -189,23 +192,29 @@ h1 {
   align-items: baseline;
   text-align: left;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
+}
+
+.home-content p {
+  font-size: 18px;
+  font-weight: var(--fw-300);
+
 }
 
 .home-content span {
-  color: var(--pink);
+  color: var(--textpink);
 }
 
 .home-content h3 {
   margin-bottom: 2rem;
   margin-top: 1rem;
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-family: var(--ff-bricolage);
   font-weight: var(--fw-500);
 }
 
 .home-content h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: var(--fw-500);
   font-family: var(--ff-bricolage);
   margin-top: 1.5rem;
@@ -224,90 +233,89 @@ h1 {
 
 .text-animation span::before {
   content: 'Product & Motion Designer';
-  color: var(--pink);
+  color: var(--textpink);
   animation: words 20s infinite;
 }
+
 
 .text-animation span::after {
   content: "";
   background-color: var(--background-black);
   position: absolute;
   width: calc(100% + 8px);
-  height: 70px;
+  height: 50px;
   border-left: 3px solid var(--background-black);
   right: -8px;
   animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
 
-@keyframes cursor{
+@keyframes cursor {
   to {
     border-left: 2px solid var(--pink);
 
   }
 }
 
-@keyframes words{
+@keyframes words {
+
   0%,
-  20%{
+  20% {
     content: "Product Designer";
   }
 
   21%,
-  40%{
+  40% {
     content: "Motion Designer";
   }
 
   41%,
-  80%{
+  80% {
     content: "UX/ UI Designer";
   }
 
   61%,
-  60%{
+  60% {
     content: "Video Editor";
   }
 
   81%,
-  100%{
+  100% {
     content: "3D Artist";
   }
-  }
-
-  @keyframes typing{
-    10%,
-    15%,
-    30%,
-    35%,
-    50%,
-    55%,
-    70%,
-    75%,
-    90%,
-    95% {
-      width: 0;
-    }
-    5%,
-    20%,
-    25%,
-    40%,
-    45%,
-    60%,
-    65%,
-    80%,
-    85% {
-      width: calc(100% + 8px);
-    }
-  }
-
-
-.other-projects-container {
-  display: grid;
 }
+
+@keyframes typing {
+
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}
+
 
 .cards_grid_layout_homepage figure {
   margin: 0;
   padding: 0;
-  ;
 }
 
 .figure_other_projects img {
@@ -327,6 +335,93 @@ h1 {
   grid-template-columns: 1fr 1fr;
   justify-items: start;
 }
+
+.mid-text h3 {
+  margin-top: 22px;
+  font-size: 1.5rem;
+  font-family: var(--ff-bricolage);
+  font-weight: var(--fw-500);
+}
+
+.portfolio-content-home {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.otherprojects-content-home {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+
+}
+
+.row-img {
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.7s;
+}
+
+.row-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.row-img:hover {
+  transform: scale(1.1);
+}
+
+.row {
+  background-color: var(--background-black);
+  border-radius: 10px;
+  padding: 0px 0px 10px 0px;
+  transition: all .7s ease-in-out;
+}
+
+.row-left h4 {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: var(--fw-500);
+}
+
+.row a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.other-projects {
+  padding: 70px 0;
+}
+
+.get-in-touch h4 {
+  font-family: var(--ff-bricolage);
+  font-size: 3rem;
+  font-weight: var(--fw-400);
+  padding: 10px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.email_button {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+
+.get-in-touch {
+  display: grid;
+  gap: 20px;
+}
+
 
 
 /* about */
@@ -666,7 +761,8 @@ h1 {
 }
 
 .behance_button:hover .arrow path {
-  stroke: var(--pink); /* Color on hover */
+  stroke: var(--pink);
+  /* Color on hover */
 }
 
 
@@ -842,16 +938,16 @@ footer {
 }
 
 .resume_layout h2 {
-font-size: 32px;
-font-family: var(--ff-bricolage);
-font-weight: var(--fw-500);
+  font-size: 32px;
+  font-family: var(--ff-bricolage);
+  font-weight: var(--fw-500);
 }
 
 .resume_layout p {
   font-size: 16px;
   text-align: left;
   max-width: 500px;
-  }
+}
 
 .resume_layout {
   padding: 12px 32px;
@@ -1035,6 +1131,42 @@ summary::marker {
     padding: 15px 20px;
   }
 
+  /*HOME PAGE*/
+
+
+  .home-content p {
+    font-size: 20px;
+  }
+
+  .home-content h3 {
+    font-size: 3.5rem;
+  }
+
+  .home-content h1 {
+    font-size: 4rem;
+  }
+
+  .home-content {
+    margin-top: 3rem;
+  }
+
+  .home {
+    padding: 70px 0;
+  }
+
+  .text-animation span::after {
+    height: 70px;
+  }
+
+  .get-in-touch h4 {
+    font-size: 4.5rem;
+    justify-content: left;
+  }
+
+  .email_button {
+    display: flex;
+    justify-content: left;
+  }
 
 
   /*About*/
@@ -1043,7 +1175,6 @@ summary::marker {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 48px;
-    
     padding: 56px;
   }
 
@@ -1088,7 +1219,8 @@ summary::marker {
 
   .portfolio_layout {
     margin: 0 56px;
-}
+  }
+
   .cards_grid_layout {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1175,7 +1307,8 @@ summary::marker {
 
   .contact-layout {
     padding: 56px;
-}
+  }
+
   .contact-inputs {
     width: 450px;
   }
@@ -1205,6 +1338,6 @@ summary::marker {
   .resume_layout {
     padding: 56px;
 
-}
+  }
 
 }

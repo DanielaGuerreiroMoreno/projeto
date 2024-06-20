@@ -1,43 +1,198 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Home Page";
----
-<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
+---
+
+
+
+<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
 <BaseLayout pageTitle={pageTitle}>
- 
   <main class="homepage_layout">
-
+    <!--Intro Name-->
     <section class="home" id="home">
       <div class="home-content">
         <h1>Hi! It's<span> Daniela Moreno </span></h1>
         <h3 class="text-animation">I'm a <span></span></h3>
-        <p>Digital Product & Motion Designer.</p>
+        <p>
+          Welcome to my website! Get to know me a little bit more,<br />and feel
+          free to explore my projects.
+        </p>
       </div>
     </section>
 
-  <section class="other-projects-container">
-    <h3>Other projects</h3>
-    <div class="cards_grid_layout_homepage">
-          <figure class="figure_other_projects">
-            <img
-              src="assets/img/othe_projects/3d_letters.jpg"
-              alt="White background with two 3D mobiles, featuring the titles 'Instagram New Feature' and 'Search Control' in black"
-            />
-          </figure>
+    <!--Lastest projects-->
+    <section class="latest-projects">
+      <div class="mid-text">
+        <h3>My latest projects</h3>
+      </div>
+
+      <div class="portfolio-content-home">
+        <div class="row">
+          <a href="/posts/post-1">
+            <div class="row-img">
+              <img
+                src="/assets/img/instagram_newfeature_cover.jpg"
+                alt="White background with two 3D mobiles, featuring the titles 'Instagram New Feature' and 'Search Control' in black"
+              />
+            </div>
+
+            <div class="row-left">
+              <h4>Instagram New feature</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="row">
+          <a href="/posts/post-2">
+            <div class="row-img">
+              <img
+                src="/assets/img/fbaul_cover.jpg"
+                alt="White background with two 3D mobiles, featuring the titles 'Instagram New Feature' and 'Search Control' in black"
+              />
+            </div>
+
+            <div class="row-in">
+              <div class="row-left">
+                <h4>Redesign FBAUL's Website</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="row">
+          <a href="/posts/post-4">
+            <div class="row-img">
+              <img
+                src="/assets/img/purpletaxi_cover.jpg"
+                alt="White background with two 3D mobiles, featuring the titles 'Instagram New Feature' and 'Search Control' in black"
+              />
+            </div>
+
+            <div class="row-in">
+              <div class="row-left">
+                <h4>Purple Taxi</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+      <!--Other projects-->
+      <section class="other-projects">
+        <div class="mid-text">
+          <h3>Other projects</h3>
+        </div>
+
+        <div class="otherprojects-content-home">
+          <div class="row">
+            <div class="row-img">
+              <img
+                src="/assets/img/othe_projects/3d_letters.jpg"
+                alt="black background displaying the word 'Crush' with a yellow color"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-img">
+              <img
+                src="/assets/img/othe_projects/dm_3d.jpg"
+                alt="black background displaying the letters 'DM' in 3D with a metallic effect"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-img">
+              <img
+                src="/assets/img/othe_projects/metallic-w.jpg"
+                alt="black background displaying the letter 'W' in a metallic effect"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-img">
+              <img
+                src="/assets/img/othe_projects/metallic-x.jpg"
+                alt="black background displaying the letter 'X' in a metallic effect"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-img">
+              <img
+                src="/assets/img/othe_projects/run_poster.jpg"
+                alt="black background displaying the word 'Run' with a metallic effect"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-img">
+              <img
+                src="/assets/img/othe_projects/txt_logo.jpg"
+                alt="black background with broken glass displaying the word 'TXT' in 3D"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-img">
+              <img
+                src="/assets/img/othe_projects/agustd_album.jpg"
+                alt="light black background displaying with a cd with black a red colors"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-img">
+              <img
+                src="/assets/img/othe_projects/yungblud_poster.jpg"
+                alt="coroful poster with various elements in blue and pink"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row-img">
+              <img
+                src="/assets/img/othe_projects/3d-modelling.jpg"
+                alt="blue background with 3d elements"
+              />
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--get in touch-->
+<section class="get-in-touch">
+  <h4>Get in touch</h4>
+  <div class="email_button">
+    <a class="behance_button" href="mailto:danielaguerreiromoreno@gmail.com" target="_blank">
+
+      <svg class="arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  stroke="#000000" style="width: 24px; height: 24px;">
         
-          <figure class="figure_other_projects">
-            <img src="/assets/img/othe_projects/metallic-X.jpg" alt="Baby pink background with three website mockups, featuring the title 'FBAUL Redesign' in dark pink" />
-          </figure>
-
-          <figure class="figure_other_projects">
-            <img src="/assets/img/othe_projects/metallic-W.png" alt="Baby pink background with three website mockups, featuring the title 'FBAUL Redesign' in dark pink" />
-          </figure>
-
-          <figure class="figure_other_projects">
-            <img src="/assets/img/othe_projects/agustd_album.jpg" alt="Baby pink background with three website mockups, featuring the title 'FBAUL Redesign' in dark pink" />
-          </figure>
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier"> 
+            <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> 
+        </g></svg>
+    <p>Email</p>
+</a>
 </div>
-<main>
+</section>
+
+  </main>
 </BaseLayout>
+
+
+
+
+
