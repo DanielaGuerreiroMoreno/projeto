@@ -433,7 +433,7 @@ h1 {
   grid-gap: 18px;
 }
 
-.image_text_content h3 {
+.image_text_content h2 {
   font-size: var(--fs-9);
   font-family: var(--ff-bricolage);
   font-style: normal;
@@ -1157,7 +1157,7 @@ footer {
     width: 340px;
   }
 
-  .image_text_content h3 {
+  .image_text_content h2 {
     font-size: var(--fs-5);
   }
 

@@ -28,7 +28,7 @@ title: 'Instagram New Feature'
 <figure class="project_figure">
 <img src="/assets/img/project_1/page1.png" alt="Image explaining the project problem and solution">
 
-<div class="video_container">
+<div class="video_container" role="region" aria-label="YouTube video player">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lzAekp-sB7I?si=FlpEDCQ4rWwl_Z_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
@@ -43,7 +43,7 @@ title: 'Instagram New Feature'
 <img src="/assets/img/project_1/page10.png" alt="Three user flows displayed in a diagram">
 
 
-<div class="video_container">
+<div class="video_container" role="region" aria-label="Vimeo video player">
 <div style="padding:52.73% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/956979772?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Wireframes to Mockups"></iframe>
     </div>
 </div>
@@ -52,7 +52,7 @@ title: 'Instagram New Feature'
 <img src="/assets/img/project_1/page12.png" alt="word 'Prototype' is displayed on the left with a white background and black text, accompanied by a tag with the word 'Design' on the right">
 
 
-<div class="video_container">
+<div class="video_container" role="region" aria-label="Vimeo video player">
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src= "https://player.vimeo.com/video/956989178?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Prototype" alt="Display of all prototype"></iframe></div>
 </div>
 
