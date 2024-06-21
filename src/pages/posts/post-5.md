@@ -34,34 +34,34 @@ title: 'Butter'
 
 <div class="gride_images_container">
 <figure class="gride_images">
-<img src="/assets/img/project_5/img_1.png" alt="Yellow background with black text centered" >
+<img src="/assets/img/project_5/img_1.jpg" alt="Yellow background with black text centered" >
 </figure>
 
 <figure class="gride_images">
-<img src="/assets/img/project_5/img_2.png" alt="Orange background with white text centered">
+<img src="/assets/img/project_5/img_2.jpg" alt="Orange background with white text centered">
 </figure>
 <figure class="gride_images">
-<img src="/assets/img/project_5/img_3.png" alt="Yellow background with orange text aligned at left">
-</figure>
-
-<figure class="gride_images">
-<img src="/assets/img/project_5/img_4.png" alt="Orange background with white text and dollar sign centered">
+<img src="/assets/img/project_5/img_3.jpg" alt="Yellow background with orange text aligned at left">
 </figure>
 
 <figure class="gride_images">
-<img src="/assets/img/project_5/img_5.png" alt="person dancing with a yellow text 'Let it' centered">
+<img src="/assets/img/project_5/img_4.jpg" alt="Orange background with white text and dollar sign centered">
 </figure>
 
 <figure class="gride_images">
-<img src="/assets/img/project_5/img_6.png" alt="Green background with yellow text centered">
+<img src="/assets/img/project_5/img_5.jpg" alt="person dancing with a yellow text 'Let it' centered">
 </figure>
 
 <figure class="gride_images">
-<img src="/assets/img/project_5/img_7.png" alt="Yellow background with green text 'Hate us'centered">
+<img src="/assets/img/project_5/img_6.jpg" alt="Green background with yellow text centered">
 </figure>
 
 <figure class="gride_images">
-<img src="/assets/img/project_5/img_8.png" alt="Green background with yellow text aligned at left">
+<img src="/assets/img/project_5/img_7.jpg" alt="Yellow background with green text 'Hate us'centered">
+</figure>
+
+<figure class="gride_images">
+<img src="/assets/img/project_5/img_8.jpg" alt="Green background with yellow text aligned at left">
 </figure>
 
 </div>

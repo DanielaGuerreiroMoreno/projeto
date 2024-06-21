@@ -32,20 +32,20 @@ title: Art Page
 <img src="/assets/img/project_3/page_2.png" alt="Explanation of the challenge, solution and process of the project">
 <img src="/assets/img/project_3/page_3.png" alt="Beginning of the Design System with Layout Grid and Spacing on a Pink Background">
 <img src="/assets/img/project_3/page_4.png" alt="Explanation of the chosen colors and a palette of colors">
-<img src="/assets/img/project_3/page_5.png" alt="Explanation of the chosen Typography and Typescale">
+<img src="/assets/img/project_3/page_5.jpg" alt="Explanation of the chosen Typography and Typescale">
 <img src="/assets/img/project_3/page_6.png" alt="Buttons and Forms developed">
-<img src="/assets/img/project_3/page_7.png" alt="Wireframes in a scale of greys">
-<img src="/assets/img/project_3/page_8.png" alt="Home Page with explanations for elements">
-<img src="/assets/img/project_3/page_9.png" alt="Mega Menu with explanations for elements">
-<img src="/assets/img/project_3/page_10.png" alt="Result Page showing book options, with explanations for elements">
-<img src="/assets/img/project_3/page_11.png" alt="Result Page showing filter pop up, with explanations for elements">
-<img src="/assets/img/project_3/page_12.png" alt="Product Page showing details of a book, with explanations for elements">
-<img src="/assets/img/project_3/page_13.png" alt="Pop-up cart displaying products with explanations for elements">
-<img src="/assets/img/project_3/page_14.png" alt="My Cart Page displaying all products in the cart, with explanations for elements">
-<img src="/assets/img/project_3/page_15.png" alt="Checkout Page, showing Details step for intering email and name">
-<img src="/assets/img/project_3/page_16.png" alt="Checkout Page, showing Shipping step for intering information">
-<img src="/assets/img/project_3/page_17.png" alt="Checkout Page, showing Payment step for intering information">
-<img src="/assets/img/project_3/page_18.png" alt="Review Page, showing all information">
-<img src="/assets/img/project_3/page_19.png" alt="Confirmation Page, displaying the key order details">
+<img src="/assets/img/project_3/page_7.jpg" alt="Wireframes in a scale of greys">
+<img src="/assets/img/project_3/page_8.jpg" alt="Home Page with explanations for elements">
+<img src="/assets/img/project_3/page_9.jpg" alt="Mega Menu with explanations for elements">
+<img src="/assets/img/project_3/page_10.jpg" alt="Result Page showing book options, with explanations for elements">
+<img src="/assets/img/project_3/page_11.jpg" alt="Result Page showing filter pop up, with explanations for elements">
+<img src="/assets/img/project_3/page_12.jpg" alt="Product Page showing details of a book, with explanations for elements">
+<img src="/assets/img/project_3/page_13.jpg" alt="Pop-up cart displaying products with explanations for elements">
+<img src="/assets/img/project_3/page_14.jpg" alt="My Cart Page displaying all products in the cart, with explanations for elements">
+<img src="/assets/img/project_3/page_15.jpg" alt="Checkout Page, showing Details step for intering email and name">
+<img src="/assets/img/project_3/page_16.jpg" alt="Checkout Page, showing Shipping step for intering information">
+<img src="/assets/img/project_3/page_17.jpg" alt="Checkout Page, showing Payment step for intering information">
+<img src="/assets/img/project_3/page_18.jpg" alt="Review Page, showing all information">
+<img src="/assets/img/project_3/page_19.jpg" alt="Confirmation Page, displaying the key order details">
 </figure>
 </section>

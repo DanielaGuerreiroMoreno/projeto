@@ -28,66 +28,66 @@ title: 'Bubble'
 
 <section class="project_content">
 <figure class="project_figure">
-<img src="/assets/img/project_7/page_1.png" alt="Image explaining the project problem and solution">
+<img src="/assets/img/project_7/page_1.jpg" alt="Image explaining the project problem and solution">
 <img src="/assets/img/project_7/page_2.png" alt="Image explaining the project problem and solution">
 
 <div class="gride_images_container">
 <figure class="gride_images">
-<img src="/assets/img/project_7/img_3.png" alt="Two blue bubbles in a black background" >
+<img src="/assets/img/project_7/img_3.jpg" alt="Two blue bubbles in a black background" >
 </figure>
 
 <figure class="gride_images">
-<img src="/assets/img/project_7/img_4.png" alt="Colourful bubbles in a grey environment">
+<img src="/assets/img/project_7/img_4.jpg" alt="Colourful bubbles in a grey environment">
 </figure>
 
 <figure class="gride_images">
-<img src="/assets/img/project_7/img_5.png" alt="Two colourful bubbles in a black environment">
-</figure>
-
-
-<figure class="gride_images">
-<img src="/assets/img/project_7/img_6.png" alt="Two blue bubbles in a black environment">
-</figure>
-
-<figure class="gride_images">
-<img src="/assets/img/project_7/img_7.png" alt="Two light blue bubbles in a black environment">
+<img src="/assets/img/project_7/img_5.jpg" alt="Two colourful bubbles in a black environment">
 </figure>
 
 
 <figure class="gride_images">
-<img src="/assets/img/project_7/img_8.png" alt="Various colourful bubbles in a black environment.">
+<img src="/assets/img/project_7/img_6.jpg" alt="Two blue bubbles in a black environment">
+</figure>
+
+<figure class="gride_images">
+<img src="/assets/img/project_7/img_7.jpg" alt="Two light blue bubbles in a black environment">
+</figure>
+
+
+<figure class="gride_images">
+<img src="/assets/img/project_7/img_8.jpg" alt="Various colourful bubbles in a black environment.">
 </figure>
 
 <figure class="border_image">
-<img src="/assets/img/project_7/img_9.png" alt="blue bubble in a black environment">
+<img src="/assets/img/project_7/img_9.jpg" alt="blue bubble in a black environment">
 </figure>
 
 <figure class="gride_images">
-<img src="/assets/img/project_7/img_10.png" alt="Various colourful bubbles in a black environment">
+<img src="/assets/img/project_7/img_10.jpg" alt="Various colourful bubbles in a black environment">
 </figure>
 
 <figure class="gride_images">
-<img src="/assets/img/project_7/img_11.png" alt="olourful bubble in a black environment">
+<img src="/assets/img/project_7/img_11.jpg" alt="olourful bubble in a black environment">
 </figure>
 
 <figure class="gride_images">
-<img src="/assets/img/project_7/img_12.png" alt="Colourful bubble in a black and white environment">
+<img src="/assets/img/project_7/img_12.jpg" alt="Colourful bubble in a black and white environment">
 </figure>
 
 <figure class="gride_images">
-<img src="/assets/img/project_7/img_13.png" alt="Colourful bubble in a black and white environment">
+<img src="/assets/img/project_7/img_13.jpg" alt="Colourful bubble in a black and white environment">
 </figure>
 
 <figure class="border_image">
-<img src="/assets/img/project_7/img_14.png" alt="Colourful bubbles in a grey environment">
+<img src="/assets/img/project_7/img_14.jpg" alt="Colourful bubbles in a grey environment">
 </figure>
 
 <figure class="border_image">
-<img src="/assets/img/project_7/img_15.png" alt="A computer with a bubble cover, on a white background, on top of a wooden table">
+<img src="/assets/img/project_7/img_15.jpg" alt="A computer with a bubble cover, on a white background, on top of a wooden table">
 </figure>
 
 <figure class="border_image">
-<img src="/assets/img/project_7/page_16.png" alt="one mobile and one tablet with bubbles">
+<img src="/assets/img/project_7/page_16.jpg" alt="one mobile and one tablet with bubbles">
 </figure>
 
 </figure>

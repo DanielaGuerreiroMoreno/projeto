@@ -30,18 +30,18 @@ title: FBAUL
 <figure class="project_figure">
 <img src="/assets/img/project_2/page_1.png" alt="Explanation of the challenge and goal">
 <img src="/assets/img/project_2/page_2.png" alt="Double Diamond of the Desing Process">
-<img src="/assets/img/project_2/page_3.png" alt="Discover phase, explaining the Candidates segment and main insights from website analysis">
-<img src="/assets/img/project_2/page_4.png" alt="Main insights from Benchmarking and Data analysis">
-<img src="/assets/img/project_2/page_5.png" alt="Main insights from Interviews and Surveys">
+<img src="/assets/img/project_2/page_3.jpg" alt="Discover phase, explaining the Candidates segment and main insights from website analysis">
+<img src="/assets/img/project_2/page_4.jpg" alt="Main insights from Benchmarking and Data analysis">
+<img src="/assets/img/project_2/page_5.jpg" alt="Main insights from Interviews and Surveys">
 <img src="/assets/img/project_2/page_6.png" alt="Define phase, development of two personas">
 <img src="/assets/img/project_2/page_7.png" alt="Main insights and How Migth We">
-<img src="/assets/img/project_2/page_8.png" alt="Site Flow of the website redesign">
-<img src="/assets/img/project_2/page_9.png" alt="Ideate phase, development of the style guide for the website">
-<img src="/assets/img/project_2/page_10.png" alt="Three Wireframes in a scale of greys">
-<img src="/assets/img/project_2/page_11.png" alt="Website Mockups with explanation for the elements">
+<img src="/assets/img/project_2/page_8.jpg" alt="Site Flow of the website redesign">
+<img src="/assets/img/project_2/page_9.jpg" alt="Ideate phase, development of the style guide for the website">
+<img src="/assets/img/project_2/page_10.jpg" alt="Three Wireframes in a scale of greys">
+<img src="/assets/img/project_2/page_11.jpg" alt="Website Mockups with explanation for the elements">
 <img src="/assets/img/project_2/page_12.png" alt="Deliver phase, development of usability tests and main learnings">
-<img src="/assets/img/project_2/page_13.png" alt="Main insights of what we could have done differently and Next Steps">
-<img src="/assets/img/project_2/page_14.png" alt="Team members' names on the left, website mockup on the right">
+<img src="/assets/img/project_2/page_13.jpg" alt="Main insights of what we could have done differently and Next Steps">
+<img src="/assets/img/project_2/page_14.jpg" alt="Team members' names on the left, website mockup on the right">
 </figure>
 </section>
 

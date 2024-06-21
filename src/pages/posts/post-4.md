@@ -28,18 +28,18 @@ title: 'Purple Taxi'
 
 <section class="project_content">
 <figure class="project_figure">
-<img src="/assets/img/project_4/page_1.png" alt="cover page with a mockup and title in baby pink background">
+<img src="/assets/img/project_4/page_1.jpg" alt="cover page with a mockup and title in baby pink background">
 
 <div class="video_container">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fq436ah8ktw?si=wuPCiRcbLFuTlU7m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-<img src="/assets/img/project_4/page_2.png" alt="Research explanation and solution of the project displayed in a purple background">
-<img src="/assets/img/project_4/page_3.png" alt="Dialogue arquitecture">
+<img src="/assets/img/project_4/page_2.jpg" alt="Research explanation and solution of the project displayed in a purple background">
+<img src="/assets/img/project_4/page_3.jpg" alt="Dialogue arquitecture">
 <img src="/assets/img/project_4/page_4.png" alt="Typography and colors with three character illustrations">
-<img src="/assets/img/project_4/page_5.png" alt="Main assets. showing menu, buttons and bubble speech">
-<img src="/assets/img/project_4/page_6.png" alt="two characters displayed, Taxi Driver and Passenger in purple and yellow colors">
-<img src="/assets/img/project_4/page_7.png" alt="Final screens of the game, showing menu, intro and setting options, and final credits">
+<img src="/assets/img/project_4/page_5.jpg" alt="Main assets. showing menu, buttons and bubble speech">
+<img src="/assets/img/project_4/page_6.jpg" alt="two characters displayed, Taxi Driver and Passenger in purple and yellow colors">
+<img src="/assets/img/project_4/page_7.jpg" alt="Final screens of the game, showing menu, intro and setting options, and final credits">
 </figure>
 </section>
 
